@@ -9,6 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
+import React from "react";
 import getCroppedImageUrl from "../services/image-url";
 
 interface Props {
